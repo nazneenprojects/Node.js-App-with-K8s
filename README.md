@@ -84,4 +84,5 @@ VERSION 2: Hello from the k8s-web-hello-785b88d575-mwjd6
 
 $ curl 10.107.120.24:3000
 VERSION 2: Hello from the k8s-web-hello-785b88d575-h5lgh$
+20. Now, you can delete service and expose again with new type NodePort OR Load Balancer using " kubectl expose deployment k8s-web-hello --type=NodePort --port=300" OR " kubectl expose deployment k8s-web-hello --type=LoadBalancer --port=3000"
 
