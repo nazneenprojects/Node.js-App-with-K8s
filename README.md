@@ -1,4 +1,4 @@
-Docker images# Node.js-App-with-K8s
+# Project 1: Node.js-App-with-K8s using manual approach (Non-declarative / without YAML)
 Running Nodejs application using K8s
 
 ## Prerequisite to run on windows:
